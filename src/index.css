@@ -1,12 +1,15 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: linear-gradient(90deg, crimson, yellow, blue);
+  background-size: 500% 600%;
+  animation: bgAnimatedGradient 12s infinite linear;
 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -25,4 +28,18 @@ p {
 
 .App {
   padding-bottom: 40px;
+}
+
+@keyframes bgAnimatedGradient {
+  0% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 20%;
+  }
+
+  100% {
+      background-position: 0% 85%;
+  }
 }

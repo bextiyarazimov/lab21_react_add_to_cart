@@ -3,7 +3,7 @@
         "id": 1,
         "name": "HTML and CSS: Design and Build Websites",
         "author": "Jon Duckett",
-        "imageUrl": "https://m.media-amazon.com/images/I/41WznOEKmAL._SX396_BO1,204,203,200_.jpg",
+        "imageUrl": "https://m.media-amazon.com/images/I/71beAA2ESML._AC_UF1000,1000_QL80_.jpg",
         "price": "18"
     },
     {
@@ -47,5 +47,12 @@
         "author": "Greg Lim",
         "imageUrl": "https://m.media-amazon.com/images/I/41iau0FNmNL._SX404_BO1,204,203,200_.jpg",
         "price": "16"
+    },
+    {
+        "id": 8,
+        "name": "HTML and CSS: Design and Build Websites",
+        "author": "Jon Duckett",
+        "imageUrl": "https://m.media-amazon.com/images/I/41WznOEKmAL._SX396_BO1,204,203,200_.jpg",
+        "price": "18"
     }
 ]
